@@ -1,6 +1,8 @@
 <template>
   <div class="nav-wrapper">
-    <div class="content">Money.vue</div>
+    <div class="content">
+      Money.vue
+    </div>
     <Nav/>
   </div>
 </template>
@@ -20,8 +22,9 @@ export default {
   flex-direction: column;
   height: 100vh;
 }
-.content{
-  border: 1px solid blue ;
+
+.content {
+  border: 1px solid blue;
   overflow: auto;
   flex-grow: 1;
 }
